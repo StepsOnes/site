@@ -1,0 +1,40 @@
+@media (max-width: 900px) {
+    .nav-list {
+        display: none;
+    }
+    .nav-btn-open {
+        display: block;
+    }
+
+    .header__row {
+        display: block;
+    }
+
+    .header__img img{
+        max-width: 100%;
+        height: auto;
+        margin: 20px auto 0 auto;
+    }
+
+    .header__content {
+        padding-top: 0px;
+    }
+
+    .header__nav {
+        margin-bottom: 53px;
+    }
+
+    .cards {
+        display: flex;
+        /* column-gap: 60px; */
+        flex-direction: column;
+    }
+
+    .services {
+        padding-bottom: 60px;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,204 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap');
+
+* {
+    font-family: 'Poppins';
+    color: #000000;
+}
+
+body {
+    background-color: #F1F1F1;;
+}
+
+
+.nav-btn-open {
+    display: none;
+}
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+/* HEADER START */
+.header {
+    background-color: #F1F1F1;
+    padding-top: 46px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;  
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.nav-link.active {
+    color: #606060;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header__title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    margin-bottom: 20px
+}
+
+.header__content {
+    padding-top: 124px;
+}
+
+.header__img img{
+    width: 494px;
+    height: 613px;
+}
+
+/* HEADER END*/
+
+
+/* SERVICES */
+
+.services {
+    padding: 90px 0;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.cards {
+    display: flex;
+    column-gap: 30px;
+}
+
+.services__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.card img {
+    margin-bottom: 30px;
+}
+
+
+/* SERVICES END */
+
+/* PORFOLIO */
+
+.porfolio {
+    background-color: #F1F1F1;
+    padding: 90px 0;
+}
+
+.title__info {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: center;
+}
+
+.porfolio__title {
+    margin-bottom: 70px;
+}
+
+.project-img {
+    margin: 0 auto;
+
+}
+
+.project {
+    text-align: center;
+}
+
+.info__project {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 40px 0 90px 0;
+}
+
+
+
+/* PORTFOLIO END*/
+
+/* FOOTER*/
+
+.footer {
+    padding: 90px 0;
+    text-align: center;
+    background-color: #ffffff;;
+}
+
+.footer__title {
+    margin-bottom: 40px;
+
+}
+
+.footer__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.footer-btn:active  {
+    background-color: #272727;
+    position: relative;
+    top: 1px;
+}
+
+.footer__contatcts {
+    display: flex;
+    column-gap: 62px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contacts__text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
